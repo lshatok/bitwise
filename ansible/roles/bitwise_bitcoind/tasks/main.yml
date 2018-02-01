@@ -10,8 +10,8 @@
   include: redhat.yml
   when: ansible_os_family == 'RedHat'
 
-# Nginx setup.
-- name: Copy nginx configuration in place.
+# bitcoind setup.
+- name: Copy bitwise bitcoin configuration in place.
   template:
     src: bitcoin.conf.j2
     dest: /etc/bitcoind/bitcoin.conf

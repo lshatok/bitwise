@@ -1,6 +1,6 @@
 ---
-- name: restart nginx
-  service: name=nginx state=restarted
+- name: restart bitcoind
+  service: name=bitcoind state=restarted
 
-- name: reload nginx
-  service: name=nginx state=reloaded
+- name: reload bitcoind
+  service: name=bitcoind state=reloaded

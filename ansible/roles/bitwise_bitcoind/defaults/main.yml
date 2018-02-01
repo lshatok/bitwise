@@ -1,5 +1,5 @@
 ---
-printtoconsole: "2"
+printtoconsole: "1"
 rpcallowip: "::/0"
 rpcpassword: "!Leve18up"
 rpcuser: "bitcoin"
@@ -7,3 +7,5 @@ rpcconnect: "127.0.0.1"
 maxconnections: "16"
 paytxfee: "0.01"
 rpcport: "8332"
+datadir: "~/.bitcoin"
+confdir: "/etc/bitcoind/bitcoin.conf"
