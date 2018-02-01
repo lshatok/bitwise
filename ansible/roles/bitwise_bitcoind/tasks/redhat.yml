@@ -1,11 +1,11 @@
 ---
-- name: RedHat | Enable nginx repo.
+- name: RedHat | Enable bitcoin repo.
   template:
     src: nginx.repo.j2
-    dest: /etc/yum.repos.d/nginx.repo
+    dest: /etc/yum.repos.d/bitcoin.repo
     owner: root
     group: root
     mode: 0644
 
 - name: RedHat | Ensure nginx is installed.
-  yum: pkg=nginx state=installed enablerepo=nginx
+  yum: pkg=bitcoind state=installed enablerepo=bitcoin
