@@ -1,5 +1,0 @@
----
-dependencies:
-  - { role: wt_core }
-#  - { role: wt_filebeat }
-  - { role:wt_sftp }

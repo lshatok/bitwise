@@ -1,9 +1,0 @@
----
-- name: Debian | Install dependencies
-  apt:
-    name: "{{ item }}"
-  with_items:
-    - cron
-    - gzip
-    - python-boto
-    - s3cmd

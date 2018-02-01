@@ -1,3 +1,0 @@
-### .bash_profile created via do-bootstrap ###
-[ -n "$BASH_VERSION" ] && [ -f "$HOME/.bashrc" ] && . "$HOME/.bashrc"
-[ -f /WT/profiles/profile-webtelemetry_core.sh ] && . /WT/profiles/profile-webtelemetry_core.sh

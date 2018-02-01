@@ -1,3 +1,0 @@
----
-dependencies:
-  - { role: wt_rrd_cached }

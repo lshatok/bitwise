@@ -1,7 +1,0 @@
-# Special ReadOnly GitHub SSH settings #
-Host github.com
-    IdentityFile ~/.ssh/gitro_id_rsa
-    StrictHostKeyChecking no
-    UserKnownHostsFile /dev/null
-    LogLevel ERROR
-

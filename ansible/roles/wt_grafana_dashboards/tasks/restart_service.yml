@@ -1,3 +1,0 @@
----
-- name: Restart CeleryBeat
-  service: name=celery_beat state=restarted

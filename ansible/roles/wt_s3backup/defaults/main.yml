@@ -1,4 +1,0 @@
-s3_backups:
-  rules: false
-  access_key: 1234
-  secret_key: 1234

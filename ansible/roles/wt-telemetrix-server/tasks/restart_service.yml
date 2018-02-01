@@ -1,2 +1,0 @@
-- name: Restart The server
-  service: name=telemetrix-server state=restarted

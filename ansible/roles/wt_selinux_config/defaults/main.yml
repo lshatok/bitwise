@@ -1,4 +1,0 @@
----
-selinux:
-  config: "disabled"
-  type:   "minimum"

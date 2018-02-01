@@ -1,3 +1,0 @@
-- name: Restart the Bokeh server
-  service: name=bokeh-server state=restarted
-  when: bokeh_server

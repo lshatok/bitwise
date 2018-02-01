@@ -1,5 +1,0 @@
----
-dependencies:
-  - { role: wt_core }
-  - { role: wt_python }
-  - { role: wt_virtualenv }

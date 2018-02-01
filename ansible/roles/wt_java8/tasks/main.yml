@@ -1,8 +1,0 @@
----
-- name: Debian installation
-  include: ubuntu.yml
-  when: ansible_os_family == 'Debian'
-
-- name: RedHat installation
-  include: redhat.yml
-  when: ansible_os_family == 'RedHat'

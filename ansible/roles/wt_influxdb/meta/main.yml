@@ -1,4 +1,0 @@
----
-dependencies:
-  - { role:wt_java9 }
-  - { role: wt_virtualenv }
