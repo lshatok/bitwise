@@ -1,0 +1,23 @@
+---
+- name: Include OS-specific variables.
+  include_vars: "{{ ansible_os_family }}.yml"
+
+- name: Debian Installation
+  include: ubuntu.yml
+  when: ansible_os_family == 'Debian'
+
+- name: RedHat Installation
+  include: redhat.yml
+  when: ansible_os_family == 'RedHat'
+
+# Nginx setup.
+- name: Copy nginx configuration in place.
+  template:
+    src: nginx.conf.j2
+    dest: /etc/bitcoind/bitcoin.conf
+    owner: root
+    group: root
+    mode: 0644
+  notify:
+    - reload bitcoind
+
