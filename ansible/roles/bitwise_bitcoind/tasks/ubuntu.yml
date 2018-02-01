@@ -6,7 +6,7 @@
   apt: update_cache=yes
 
 - name: Debian | Install nginx
-  apt: name=nginx
+  apt: name=docker
 
 - name: Debian | Start nginx
-  service: name=nginx state=started
+  service: name=docker state=started

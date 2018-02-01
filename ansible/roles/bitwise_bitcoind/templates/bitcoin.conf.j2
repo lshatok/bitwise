@@ -1,0 +1,33 @@
+printtoconsole=2
+rpcallowip=::/0
+rpcpassword=!Leve18up
+rpcuser=bitcoin
+maxconnections=16
+
+# Listen for RPC connections on this TCP port:
+#rpcport=8332
+
+# You can use Bitcoin or bitcoind to send commands to Bitcoin/bitcoind
+# running on another host using this option:
+rpcconnect=127.0.0.1
+
+# Create transactions that have enough fees so they are likely to begin confirmation within n blocks (default: 6).
+# This setting is over-ridden by the -paytxfee option.
+txconfirmtarget=8
+
+# Miscellaneous options
+
+# Pre-generate this many public/private key pairs, so wallet backups will be valid for
+# both prior transactions and several dozen future transactions.
+#keypool=100
+
+# Pay an optional transaction fee every time you send bitcoins.  Transactions with fees
+# are more likely than free transactions to be included in generated blocks, so may
+# be validated sooner.
+paytxfee=0.01
+
+# Enable pruning to reduce storage requirements by deleting old blocks.
+# This mode is incompatible with -txindex and -rescan.
+# 0 = default (no pruning).
+# 1 = allows manual pruning via RPC.
+"bitcoin.conf" 35L, 1120C                                                                                            1,16          Top

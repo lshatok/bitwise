@@ -13,7 +13,7 @@
 # Nginx setup.
 - name: Copy nginx configuration in place.
   template:
-    src: nginx.conf.j2
+    src: bitcoin.conf.j2
     dest: /etc/bitcoind/bitcoin.conf
     owner: root
     group: root

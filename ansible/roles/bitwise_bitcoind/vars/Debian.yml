@@ -1,1 +1,2 @@
 nginx_user: "www-data"
+bitcoin-data: "~/.bitcoin"
