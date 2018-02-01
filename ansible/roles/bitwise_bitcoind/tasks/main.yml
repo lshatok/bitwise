@@ -10,6 +10,15 @@
   include: redhat.yml
   when: ansible_os_family == 'RedHat'
 
+
+# setuo docker
+
+- name: Run dockerized bitcoind
+  command: "docker run --name bitcoind_{{ network_id }} -d -v {{ datadir }}:/data -p 8333:8333 -p 9735:9735 dougvk/bitcoind:latest"
+
+
+
+
 # bitcoind setup.
 - name: Copy bitwise bitcoin configuration in place.
   template:
