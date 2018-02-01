@@ -13,4 +13,16 @@ bitcoind:
   network_id: "mainnet"
 
 lightningd:
+  printtoconsole: "1"
+  rpcallowip: "::/0"
+  rpcpassword: "!Leve18up"
+  rpcuser: "bitcoin"
+  rpcconne:ct: "127.0.0.1"
+  maxconnections: "4"
+  paytxfee: "0.01"
+  segwit: "true"
+  segwit_enabled: "true"
   rpcport: "9375"
+  datadir: "~/.bitcoin"
+  confdir: "/etc/lightningd/lightningd.conf"
+  network_id: "mainnet"
