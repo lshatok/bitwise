@@ -1,7 +1,0 @@
----
-- name: Playbook Deploy TELEMETRIX
-  hosts: "{{ target }}"
-  sudo: true
-
-  roles:
-    - wt_telemetrix

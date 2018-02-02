@@ -1,7 +1,7 @@
 ---
-- name: wt_deploy
+- name: bitwise_bitcoind
   hosts: "{{ target }}"
   become: true
 
   roles:
-  - wt_deploy
+  - bitwise_bitcoind
