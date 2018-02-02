@@ -1,8 +1,8 @@
 ---
-- name: Playbook wt_install
+- name: Playbook bitwise_install
   hosts: "{{ target }}"
   become: true
   remote_user: root
 
   roles:
-    - wt_install
+    - bitwise_install

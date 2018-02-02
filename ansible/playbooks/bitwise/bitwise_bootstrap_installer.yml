@@ -1,7 +1,7 @@
-## PlayBook to Setup wt Instance ##
+## PlayBook to Setup bitwise btc Instance ##
 
 ---
-- name: WebTelemetry | Playbook wt
+- name: bitwise | Playbook bitwise
   hosts: "{{ target }}"
   sudo: true
 
@@ -11,9 +11,9 @@
 
   #vars_prompt:
   #  - name: "branch"
-  #    prompt: "Which wt branch to clone"
+  #    prompt: "Which bitwise branch to clone"
   #    default: "master"
   #    private: no
 
   roles:
-    - wt
+    - bitwise

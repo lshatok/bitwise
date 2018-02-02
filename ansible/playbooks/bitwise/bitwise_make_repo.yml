@@ -1,9 +1,9 @@
 ## PlayBook to manage wt  ##
 ---
-- name: Playbook deploy wt 
+- name: Playbook deploy bitwise_clean
   hosts: "{{ target }}"
   sudo: true
 
   roles:
-    - wt_clean_wt
+    - bitwise_clean
 
